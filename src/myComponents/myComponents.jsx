@@ -155,7 +155,7 @@ const MyComponents = () =>{
         <>
         <div className={styles.com_container}>
            {
-           quotesData.map((val , index) =>{cd 
+           quotesData.map((val , index) =>{
             return <Quotes quotes ={val.quote} author ={val.author} key ={index} />
            })
            }
