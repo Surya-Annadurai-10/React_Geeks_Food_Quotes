@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* background-color: red; */
+    width: 90%;
+    background-color: #1F2937;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 9vh;
+    padding: 1.5rem;
+    animation-name: box ;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 10px rgb(199, 199, 199);
+}
+
+.container h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.container p{
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #9CA3AF;
+}
+
+@keyframes box {
+    0%{
+      box-shadow: 0 0 30px green;
+    }
+
+    12.5%{
+        box-shadow: 0 0 30px rgb(215, 28, 175);
+        animation-delay: 0.3s;
+    }
+
+    25%{
+      box-shadow: 0 0 30px red;
+      animation-delay: 0.3s;
+        
+    }
+
+    37.5%{
+        box-shadow: 0 0 30px rgb(0, 255, 119);
+        animation-delay: 0.3s;
+    }
+
+    50%{
+      box-shadow: 0 0 30px orange;
+      animation-delay: 0.3s;
+
+        
+    }
+
+    62.5%{
+        box-shadow: 0 0 30px rgb(128, 0, 255);
+        animation-delay: 0.3s;
+    }
+
+    75%{
+      box-shadow: 0 0 30px blue;
+      animation-delay: 0.3s;
+
+        
+    }
+
+    87.5%{
+        box-shadow: 0 0 30px rgb(255, 238, 0);
+        animation-delay: 0.3s;
+    }
+
+    100%{
+      box-shadow: 0 0 30px cyan;
+      animation-delay: 0.3s;
+
+        
+    }
+}
